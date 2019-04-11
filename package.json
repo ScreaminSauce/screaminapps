@@ -1,6 +1,6 @@
 {
   "name": "@screaminsauce/screaminapps",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Terminal project for loading a screaminserver and my API/GUI modules",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,6 @@
   "dependencies": {
     "@screaminsauce/screaminserver": "^1.0.1",
     "@screaminsauce/scrmn_auth": "^1.1.2",
-    "@screaminsauce/scrmn_gspfscreen": "^1.1.1"
+    "@screaminsauce/scrmn_gspfscreen": "^1.2.0"
   }
 }
