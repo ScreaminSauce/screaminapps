@@ -1,17 +1,19 @@
 {
   "name": "@screaminsauce/screaminapps",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "description": "Terminal project for loading a screaminserver and my API/GUI modules",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js | bunyan"
+    "start": "node index.js | bunyan",
+    "start-test": "node test/run-test.js | bunyan"
   },
   "author": "Jeff Claybaugh",
   "license": "ISC",
   "dependencies": {
-    "@screaminsauce/screaminserver": "^1.0.1",
-    "@screaminsauce/scrmn_auth": "^1.1.2",
-    "@screaminsauce/scrmn_gspfscreen": "^1.2.0"
+    "@screaminsauce/screaminserver": "^5.0.5",
+    "@screaminsauce/scrmn_auth": "^3.0.0",
+    "@screaminsauce/scrmn_gspfscreen": "^3.0.0",
+    "dotenv": "^16.0.0"
   }
 }

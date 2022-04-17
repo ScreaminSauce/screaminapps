@@ -1,4 +1,6 @@
 'use strict';
+
+require('dotenv').config({path: "test/.env-test"});
 const ScreaminServer = require('@screaminsauce/screaminserver');
 const AuthModuleApi = require('@screaminsauce/scrmn_auth').api;
 const AuthModuleGui = require('@screaminsauce/scrmn_auth').gui
