@@ -1,6 +1,6 @@
 {
   "name": "@screaminsauce/screaminapps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Terminal project for loading a screaminserver and my API/GUI modules",
   "main": "index.js",
   "scripts": {
